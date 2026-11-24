@@ -1,5 +1,6 @@
 package git.nova.lethal_clauses;
 
+import git.nova.lethal_clauses.init.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -37,6 +38,7 @@ public class LethalClausesMod {
 
     public static final Logger LOGGER = LogUtils.getLogger();
     public LethalClausesMod(IEventBus modEventBus, ModContainer modContainer) {
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
