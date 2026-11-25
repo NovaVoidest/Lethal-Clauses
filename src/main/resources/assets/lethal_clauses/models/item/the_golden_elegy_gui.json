@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lethal_clauses:item/the_golden_elegy_gui"
+  }
+}

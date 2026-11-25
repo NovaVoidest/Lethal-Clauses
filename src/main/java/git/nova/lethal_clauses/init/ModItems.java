@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> SCREENFLASH_WAND = ITEMS.register("debug_screenflash_wand",
             () -> new ScreenFlashDebugItem(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> THE_GOLDEN_ELEGY = ITEMS.register("the_golden_elegy",
+            () -> new ScreenFlashDebugItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus modEventBus) {
         ITEMS.register(modEventBus);

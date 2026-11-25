@@ -1,0 +1,18 @@
+{
+  "parent":"minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "lethal_clauses:item/the_golden_elegy_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "lethal_clauses:item/the_golden_elegy_gui"
+    },
+    "ground": {
+      "parent": "lethal_clauses:item/the_golden_elegy_gui"
+    },
+    "fixed": {
+      "parent": "lethal_clauses:item/the_golden_elegy_gui"
+    }
+  }
+}
